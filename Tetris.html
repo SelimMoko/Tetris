@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="tetrissmart.css" type="text/css" rel="stylesheet"></link>
+	<title>tetris</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="tetrissmart.js"></script>
+	<p id="description">Here is a project I made in Javascript when I was in High school. Enjoy!</p>
+	<p id="Made">Designed with Microsoft Paint Programmed with Javascript</p>
+	<p id="Date">Selim Mokobodzki - 2017</p><div id="menu">
+	<img src="img/tetris.png" id="img">
+	
+	<img src="img/btnplay.png" id="btnplay" 
+	onclick= "
+	pop();
+	document.getElementById('description').style.display='none'
+	document.getElementById('Made').style.display='none'
+	document.getElementById('Date').style.display='none'
+	"
+	onmouseover="src='img/btnplaysur.png';"  
+	onmouseout="src='img/btnplay.png';" >
+
+	</div>
+
+</head>
+<body id="body" onkeydown="get_contr(event);controls()" onkeyup="contr=0">
+	
+	<div id="game">
+	<img src="img/Go Back to Portfolio.png" id="btnback"
+	onclick="window.location.href='../index.html'">
+
+
+	<img src="img/droite.png" id="droite" onmousedown="contr=1;controls()" onmouseup="contr=0;">
+	<img src="img/gauche.png" id="gauche" onmousedown="contr=2;controls()" onmouseup="contr = 0;">
+	<img src="img/tourn.png" id="trne" onclick="contr=3;controls()"></button>
+	<img src="img/acc.png" id="acc" onmousedown="contr=4;controls()" onmouseup="contr=0">
+	<img src="img/Tuto.png" style="position:absolute; Left:600px; top:250px; width:250px;">
+	
+	<!--
+	<img src="img/btnpause.png" id="pauseimg" onclick="pause();"
+	onmouseover="src='img/btnpausesur.png';"
+	onmouseout="src='img/btnpause.png';">
+	-->
+	<img src="img/score.png" id="scoring">
+	<a href="Tetris python/Tetris!.exe" download>
+  		<img src="img/Download.png" style="position: absolute;
+		top:600px; left:800px; width: 260px; height: 150px;"></im>
+	</a>
+	
+	<canvas id="cns" width = "330" height ="690"></canvas>
+	<!--<button onclick="zero()" id="btnzero">remise à zero</button>-->
+	<script src="tetrissmart.js"></script>
+	<p id="scor"></p>
+	</div>
+	
+
+	<!--<script>
+    function myFunction(event) {
+		alert('You pressed: ' + event.key);
+    	contr=1;controls();
+    }
+	</script>
+-->
+
+	<!--
+	<div id="pausemenu">
+	<img src="menupause.png" id="menupauseimg">
+	<img src="select.png" id="selectimg">
+	</div>-->
+
+
+
+
+	<script>
+		var game = document.getElementById("game");
+		var menu = document.getElementById("menu");
+		var pausev = document.getElementById("pausemenu");
+		game.style.display = "none";
+		pausev.style.display= "none";
+		menu.style.display ="block";
+	</script>
+	
+	</body>
+</html>

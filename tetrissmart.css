@@ -1,0 +1,134 @@
+	#body{
+		background-color: #A8CAA8;
+	}
+	#btnback{
+		font-family: 'Helvetica';
+		position: absolute;
+		left: 600px;
+		top: 100px;
+		width: 200px;
+		height: 100px;
+		font-size: 25px;
+	}
+	#description{
+		font-family: 'Helvetica';
+		position: absolute;
+		left: 370px;
+		top: 650px;
+		width: 800px;
+		height: 150px;
+		font-size: 25px;
+	}
+	#Made{
+		font-family: 'Amasis MT Pro';
+		position: absolute;
+		left: 630px;
+		top: 700px;
+		width: 260px;
+		height: 150px;
+	}
+	#Date{
+		position: absolute;
+		left: 640px;
+		top: 750px;
+		width: 260px;
+		height: 150px;
+	}		
+	#cns {
+		position : absolute;
+		background-color : #999999;
+		top : 50px;
+		left: 200px;
+		}
+	#img{
+		position : absolute;
+		top : 150px;
+		left :240px;
+		height : 500px;
+		width : 1000px;
+	}
+	#btnpause {
+		position : absolute;
+		left : 550px;
+	}
+	#btnzero {
+		position : absolute;
+		left : 600px;
+	}
+	#scor{
+		position : absolute;
+		left :600px;
+		top:590px;
+		color : #FF0000;
+		font-size : 45px;
+	}
+	#scoring{
+		position: absolute;
+		left: 550px;
+		top: 590px;
+		width: 260px;
+		height: 150px;
+	}
+	#btnplay{
+		position: absolute;
+		top: 300px;
+		left: 600px;
+		width: 190px;
+		height: 45px;
+	}
+	#btnplaysur{
+		position: absolute;
+		top: 300px;
+		left: 600px;
+		width: 210px;
+		height: 60px;
+	}
+	#pauseimg{
+		position: absolute;
+		top: 300px;
+		left: 600px;
+		width: 210px;
+		height: 60px
+	}
+	#menupauseimg{
+		position : absolute;
+		top: 150px;
+		left: 240px;
+		height: 500px;
+		width: 1000px;
+	}
+	#selectimg{
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		height: 50px;
+		width: 50px;
+	}
+	#droite{
+		position: absolute;
+		top: 450px;
+		left: 800px;
+		height:100px;
+		width:100px
+	}
+	#gauche{
+		position: absolute;
+		top: 450px;
+		left: 600px;
+		height:100px;
+		width:100px
+	}
+	#acc{
+		position: absolute;
+		top: 550px;
+		left: 10px;
+		height:100px;
+		width:100px
+	}
+	#trne{
+		position: absolute;
+		top: 350px;
+		left: 10px;
+		height:100px;
+		width:100px
+	}
